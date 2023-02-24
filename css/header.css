@@ -1,0 +1,17 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  min-height: 10vh;
+  margin-bottom: 12px;
+}
+header > #title_logo {
+  font-size: 2rem;
+  color: rgb(131, 130, 130);
+}
+header > #menu_img {
+  height: 30px;
+  width: 30px;
+}
+
+/*# sourceMappingURL=header.css.map */

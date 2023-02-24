@@ -1,0 +1,65 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  min-height: 10vh;
+  margin-bottom: 12px;
+}
+header > #title_logo {
+  font-size: 2rem;
+  color: rgb(131, 130, 130);
+}
+header > #menu_img {
+  height: 30px;
+  width: 30px;
+}
+
+#doggo {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+main {
+  display: grid;
+  margin-left: 22px;
+  margin-right: 22px;
+  min-height: 80vh;
+}
+main > * {
+  line-height: 1.5;
+}
+main > #profile_par {
+  text-align: left;
+  margin-bottom: 50px;
+}
+main > #about_me {
+  text-align: left;
+  margin-bottom: 40px;
+  font-size: 0.8rem;
+}
+main > #details {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 0.7rem;
+}
+
+footer {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(49, 49, 49);
+  color: aliceblue;
+  font-size: 0.9rem;
+  min-height: 10vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

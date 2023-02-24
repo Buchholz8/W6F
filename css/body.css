@@ -1,0 +1,33 @@
+#doggo {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+main {
+  display: grid;
+  margin-left: 22px;
+  margin-right: 22px;
+  min-height: 80vh;
+}
+main > * {
+  line-height: 1.5;
+}
+main > #profile_par {
+  text-align: left;
+  margin-bottom: 50px;
+}
+main > #about_me {
+  text-align: left;
+  margin-bottom: 40px;
+  font-size: 0.8rem;
+}
+main > #details {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 0.7rem;
+}
+
+/*# sourceMappingURL=body.css.map */

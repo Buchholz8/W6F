@@ -1,0 +1,15 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    min-height: 10vh;
+    margin-bottom: 12px;
+    >#title_logo{
+        font-size: 2rem;
+        color: rgb(131, 130, 130);
+    }
+    >#menu_img{
+        height: 30px;
+        width: 30px;
+    }
+}

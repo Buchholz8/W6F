@@ -1,0 +1,12 @@
+footer {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(49, 49, 49);
+  color: aliceblue;
+  font-size: 0.9rem;
+  min-height: 10vh;
+}
+
+/*# sourceMappingURL=footer.css.map */
